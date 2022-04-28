@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.container{
+  width: 100%;
+}
+
+nav{
+  margin:auto;
+  width: 80%;
+  display: flex;
+  position: fixed;
+  left:0;
+  right:0;
+  background-color: #eeee;
+}
+
+nav .logo{
+  position: relative;
+  left: 50px;
+  padding:10px;
+  
+}
+
+ul{
+  display: flex;
+  margin: auto;
+  font-size: 20px;
+}
+ul li{
+  margin:30px;
+  padding:10px;
+  text-align: center;
+}
+
+.sns{
+  
+  top:25px;
+  right:100px;
+}
+.sns i {
+  margin:5px;
+  padding:5px;
+}
+
+.fa-facebook-square {
+  color:rgb(31, 51, 233);
+}
+.fa-instagram-square{
+  color:rgb(216, 112, 181);
+}
