@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- 폰트어썸 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- swiper -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
 
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="media.css">
@@ -31,12 +36,39 @@
         <a href="https://www.facebook.com/GongCha.Korea">
           <i class="fa-brands fa-facebook-square fa-2x"></i>
         </a>
-        <a href="https://www.instagram.com/gongcha.official/?hl=ko"><i class="fa-brands fa-instagram-square fa-2x"></i></a>
+        <a href="https://www.instagram.com/gongcha.official/?hl=ko">
+          <i class="fa-brands fa-instagram-square fa-2x"></i>
+        </a>
         
       </div>
     </nav>
+
+    <div class="slider">
+      <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/메인슬라이드1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/메인슬라이드2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/메인슬라이드3.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/메인슬라이드4.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      
+    </div>
+    </div>
   </div>
 
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
